@@ -15,6 +15,8 @@ function createHandler() {
   const amount = Number(input.value)
   if (amount < 1 || amount > 100) {
     alert("Please enter a valid number between 1 and 100")
+    return;
+
      
   }
   destroyHandler()
